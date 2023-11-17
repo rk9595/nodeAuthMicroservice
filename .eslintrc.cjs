@@ -4,12 +4,12 @@ module.exports = {
     parser: '@typescript-eslint/parser',
     plugins: ['@typescript-eslint'],
     parserOptions: {
-      project: true,
-      tsconfigRootDir: __dirname,
+        project: true,
+        tsconfigRootDir: __dirname,
     },
     root: true,
     rules: {
-      "no-console": "error",
-      "dot-notation": "error"
+        "no-console": "error",
+        "dot-notation": "error"
     }
-  };
+};
