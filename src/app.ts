@@ -11,7 +11,8 @@ app.use(express.static("public"));
 app.use(cookieParser());
 app.use(express.json());
 
-app.get("/", async (req, res) => {
+// eslint-disable-next-line @typescript-eslint/no-misused-promises
+app.get("/", (req, res) => {
     res.send("Welcome to Auth service");
 });
 
