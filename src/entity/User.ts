@@ -16,4 +16,7 @@ import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
 
      @Column()
      password: string;
+     
+     @Column()
+     role: string;
  }
