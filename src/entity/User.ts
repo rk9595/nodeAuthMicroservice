@@ -11,12 +11,12 @@ import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
      @Column()
      lastName: string;
 
-     @Column()
+     @Column({unique:true})
      email: string;
 
      @Column()
      password: string;
-     
+
      @Column()
      role: string;
  }

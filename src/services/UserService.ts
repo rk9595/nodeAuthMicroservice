@@ -25,7 +25,7 @@ export class UserService {
                 firstName,
                 lastName,
                 email,
-                password,
+                password:hashedPassword,
                 role: Roles.CUSTOMER,
             });
         } catch (err) {
