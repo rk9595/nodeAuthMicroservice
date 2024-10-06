@@ -15,6 +15,9 @@ const {
   DB_NAME,
   REFRESH_TOKEN_SECRET,
   JWKS_URI,
+  CLIENT_UI_DOMAIN,
+  ADMIN_UI_DOMAIN,
+  MAIN_DOMAIN,
 } = process.env;
 
 export const Config = {
@@ -27,4 +30,7 @@ export const Config = {
   DB_NAME,
   REFRESH_TOKEN_SECRET,
   JWKS_URI,
+  CLIENT_UI_DOMAIN,
+  ADMIN_UI_DOMAIN,
+  MAIN_DOMAIN,
 };
